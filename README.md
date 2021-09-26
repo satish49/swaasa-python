@@ -40,14 +40,10 @@ Currently all variables hard coded for testing.
 
 
 ## Testing URL's
-1. Admin login: /adminlogin
-   a. returns access token
-2. Assessment: /assessment
-  a. retures status and assessment id if success
-3. Version: /version
-  a. returns version of the backend system
-4. Health: /health
-  a. returns server health
+1. Admin login: /adminlogin  ==> returns access token
+2. Assessment: /assessment  ==>  retures status and assessment id if success
+3. Version: /version  ==>        returns version of the backend system
+4. Health: /health  ==>          returns server health
 
 
 Full API documet available: http://restunited.com/docs/u9h2kmckoexm
