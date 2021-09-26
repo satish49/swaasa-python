@@ -24,14 +24,15 @@ python setup.py install --user
 And use ```import swaasa``` for integration
 
 ## Testing
-Created sample app [swaasa-test] with main.py and test_swaasa.py files
+Created sample app [test.py] in Flask
 To test this, run following
 ```
 pip install -r requirements.txt
-python main.py
+set FLASK_APP=test
+flask run
 ```
 
-# Update Parametes
+# Update Parametes before run the test app
 Currently all variables hard coded for testing. 
 
 [Login]: emails and password
